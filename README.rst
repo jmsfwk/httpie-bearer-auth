@@ -1,5 +1,5 @@
 httpie-bearer-auth
-================
+==================
 
 Bearer auth plugin for `HTTPie <https://github.com/jkbr/httpie>`_.
 
