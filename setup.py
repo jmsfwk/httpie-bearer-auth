@@ -5,20 +5,20 @@ except ImportError:
     pass
 
 setup(
-    name='httpie-hmac-auth',
-    description='HMAC Auth plugin for HTTPie.',
+    name='httpie-bearer-auth',
+    description='Bearer token Auth plugin for HTTPie.',
     long_description=open('README.rst').read().strip(),
-    version='0.2.3',
-    author='Nick Satterly',
-    author_email='nick.satterly@theguardian.com',
+    version='0.1.0',
+    author='James Fenwick',
+    author_email='j.fenwick@me.com',
     license='MIT',
-    url='https://github.com/guardian/httpie-hmac-auth',
-    download_url='https://github.com/guardian/httpie-hmac-auth',
-    py_modules=['httpie_hmac_auth'],
+    url='https://github.com/jmsfwk/httpie-bearer-auth',
+    download_url='https://github.com/jmsfwk/httpie-bearer-auth',
+    py_modules=['httpie_bearer_auth'],
     zip_safe=False,
     entry_points={
         'httpie.plugins.auth.v1': [
-            'httpie_hmac_auth = httpie_hmac_auth:HmacAuthPlugin'
+            'httpie_bearer_auth = httpie_bearer_auth:BearerAuthPlugin'
         ]
     },
     install_requires=[
