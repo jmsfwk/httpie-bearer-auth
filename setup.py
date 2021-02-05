@@ -9,7 +9,7 @@ setup(
     description='Bearer token Auth plugin for HTTPie.',
     long_description=open('README.rst').read().strip(),
     long_description_content_type='text/x-rst',
-    version='0.1.0',
+    version='1.0.0',
     author='James Fenwick',
     author_email='j.fenwick@me.com',
     license='MIT',
